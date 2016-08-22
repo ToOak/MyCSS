@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+#layout{
+	background-color:#cccccc;
+	border:2px solid #333333;
+	/*	width:80%; 		/* 一列宽度自适应 */
+	/*	一列宽度固定	*/
+	width:300px;
+	height:30px;
+	/* 当margin使用两个参数，第一个上下边距，第二个左右边距，此处设计呈现出居中状态 */
+	margin:0px auto;
+}
+
+/*
+	两列 左列固定 右列宽度自适应
+	若使二列固定宽度居中可在外层套一个div
+*/
+#left_2{
+	background-color:#cccccc;
+	border:2px solid #333333;
+	/* width:20%; */
+	width:100px;
+	height:30px;
+	float:left;
+}
+#right_2{
+	background-color:#cccccc;
+	border:2px solid #333333;
+	height:30px;
+	/* width:70%;
+	float:left; */
+}
+
+/*
+	三列浮动 中间列自适应
+	absolute通过z-index属性设置其重叠的顺序 大值对象层级位于小值对象之上
+*/
+#left_3{
+	background-color:#cccccc;
+	border:2px solid #333333;
+	width:100px;
+	height:100%;  /* 高度自适应 */
+	position:absolute;
+	top:68px;
+	left:0px;
+	z-index:1;
+}
+#right_3{
+	background-color:#cccccc;
+	border:2px solid #333333;
+	width:100px;
+	height:300px;
+	position:absolute;
+	top:68px;
+	right:0px;
+}
+#center_3{
+	background-color:#cccccc;
+	border:2px solid #333333;
+	height:300px;
+	margin-left:104px;
+	margin-right:104px;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+/* 用于高度自适应 */
+html,body{
+	height:100%;
+}
