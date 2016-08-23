@@ -1,0 +1,46 @@
+body{
+    background-color: #ededed;
+    background-image: url(../img/bg_body.jpg);
+    /*背景位置固定*/
+    background-attachment: fixed;
+}
+h1{
+    background-color: #6e768f;
+}
+h2{
+    background-color: rgb(53,161,32);
+}
+h3{
+    background-color: mediumaquamarine;
+}
+h4{
+    background-color: transparent;
+}
+#center{
+    border: 1px solid #000fff;
+    height: 500px;
+    background-image: url(../img/bg_center.jpg);
+    /*
+        repeat: 即默认方式，完全平铺背景
+        no-repeat: 在x及y方向均不平铺
+        repeat-x： 横向平铺背景
+        repeat-y： 纵向平铺背景
+    */
+    /* 只在x轴平铺 */
+    background-repeat: repeat-x;
+}
+#position{
+    border: 1px solid #000fff;
+    height: 500px;
+    background-image: url(../img/bg_positon.jpg);
+    background-repeat: no-repeat;
+    /*左对齐方式 上对齐方式*/
+    /*background-position: left bottom;*/
+    /*对于其左侧 上侧空间的距离*/
+    background-position: 30% 20px;
+    /*
+        背景属性缩写
+        background: 背景色 背景图片 背景平铺方式 背景滚动模式 背景定位
+    */
+    /*background: #efefef url(../img/bg_positon.jpg) no-repeat 30% 20px;*/
+}
