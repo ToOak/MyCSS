@@ -1,0 +1,41 @@
+.textInput{
+    background-color: #cccccc;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #324d84;
+    border-left-color: #5179b6;
+    border-bottom-color: #ddb0ed;
+    border-right-color: #c77cdc;
+}
+#name,#password{
+    background-image: url("../img/input_name.png");
+    background-repeat: no-repeat;
+    border: none;
+    width: 345px;
+    height: 45px;
+    line-height: 40px;
+    font-size: 18px;
+    text-indent: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+select option{
+    background-color: #dae5f5;
+}
+select .l1{
+    background-color: #fff;
+}
+select .l2{
+    background-color: #435269;
+    color: white;
+}
+#b1{
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #333333;
+    background:  url("../img/bg_positon.jpg") no-repeat 0px -15px;
+    line-height: 24px;
+    text-indent: 32px;
+}
