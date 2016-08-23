@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 横向导航 */
+#nav{
+	height:26px;
+	border-bottom:2px solid #2788da;
+}
+#nav li{
+	list-style-type:none;
+	float:left;
+	font-weight:bold;
+}
+#nav li a{
+	color:#000000;
+	text-decoration:none;
+	padding-top:4px;
+	display:block;
+	width:97px;
+	height:22px;
+	text-align:center;
+	background-color:#ececec;
+	margin-left:2px;
+}	
+#nav li a:hover{
+	background-color:#bbbbbb;
+	color:#ffffff;
+}
+#nav li a#current{
+	background-color:#2788da;
+	color:#ffffff;
+}
+
+/*
+	纵向导航
+*/
+#category{
+	width:100px;
+	border-color:#c5c6c4;
+	border-style:solid;
+	border-width:0px 1px 1px 1px;
+}
+#category h1,#category h2{
+	margin:0px;
+	padding:4px;
+	font-size:12px;
+}
+#category h1{
+	font-weight:bold;
+	border-top:1px solid #c5c6c4;
+	background-color:#f4f4f4;
+}
+#category h2{
+	font-weight:normal;
+}
+
+/*
+	下拉及多级弹出式菜单
+*/
+#_3 ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+#_3 li{
+	float:left;
+	width:160px;
+}
+#_3 li ul{
+	display:none;
+	top:20px;
+}
+#_3 li:hover ul,#_3 li.over ul{
+	display:block;
+}
+#_3 ul li a{
+    display: block;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    padding: 3px;
+    text-decoration: none;
+    color: #777;
+}
+#_3 ul li a:hover{
+    background-color: #f4f4f4;
+}
+
+/*
+    纵向菜单
+*/
+#_4{
+    position: absolute;
+    top: 70px;
+    left: 450px;
+}
+#_4 ul{
+    margin: 0;
+    padding:0;
+    list-style:none;
+    width: 130px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 12px;
+}
+#_4 ul li{
+    position: relative;
+}
+#_4 li ul{
+    position: absolute;
+    left: 129px;
+    top:0;
+    display: none;
+}
+#_4 ul li a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+}
+#_4 li:hover ul,#_4 li.over ul{
+    display: block;
+}
+
+/*
+    门户网站导航设计
+*/
+#_5{
+    clear: left;
+    margin: 0px;
+    padding: 0px;
+}
+.navGroup li{
+    float: left;
+    text-align: center;
+    margin: 0px;
+    list-style: none;
+}
+.navGroup li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 11px 1px 13px;
+    margin: 0px;
+}
+.navGroup li a:hover{
+    color: #ccff66;
+}
+#nav1{
+    background-color: #7d7d7d;
+    border-top: 1px solid #a5a5a5;
+}
+#nav2{
+    clear: left;
+}
+#nav1 a:hover{
+    background-color: #727272;
+}
+#nav2 a:hover{
+    background-color: #393939;
+}
+.noArrow a{
+    background-image: none;
+}
