@@ -1,0 +1,39 @@
+#list_0 ul{
+    /*
+        disc: 实心圆
+        circle: 空心圆
+        square: 实心方块
+        none：不显示项目符号
+    */
+    width: 200px;
+    padding-left: 30px;
+    list-style-type: none;
+    /*list-style-image: url(../img/arrow.png);*/
+}
+#list_0 ol{
+    /*
+        decimal: 阿拉伯数字
+        lower-roman: 小写罗马数字‘
+        upper-roman: 大写罗马数字
+        lower-alpha: 小写英文字母
+        upper-alpha: 大写英文字母
+    */
+    list-style-type: decimal;
+}
+#list_0 ol li{
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    /*background 缩写*/
+    /*background: url("../img/arrow.png") no-repeat 0px 3px;*/
+    padding-left: 28px;
+    padding-top: 5px;
+    /*将对象转为行间内联模式*/
+    /*display: inline;*/
+    /*首行缩进效果*/
+    text-indent: 20px;
+}
+#list_0 ul li{
+    margin: 5px;
+    text-indent: -30px;
+}
