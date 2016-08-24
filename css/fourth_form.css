@@ -1,11 +1,15 @@
 .textInput{
-    background-color: #cccccc;
-    border-width: 2px;
-    border-style: solid;
-    border-top-color: #324d84;
-    border-left-color: #5179b6;
-    border-bottom-color: #ddb0ed;
-    border-right-color: #c77cdc;
+    /*background-color: #cccccc;*/
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    /*border-top-color: #324d84;*/
+    /*border-left-color: #5179b6;*/
+    /*border-bottom-color: #ddb0ed;*/
+    /*border-right-color: #c77cdc;*/
+    width: 150px;
+    height: 20px;
+    border: 1px solid #58805f;
+    line-height: 21px;
 }
 #name,#password{
     background-image: url("../img/input_name.png");
@@ -20,13 +24,31 @@
     padding-left: 10px;
 }
 select option{
-    background-color: #dae5f5;
+    background-color: #cef0d4;
 }
 select .l1{
-    background-color: #fff;
+    background-color: white;
 }
 select .l2{
-    background-color: #435269;
+    background-color: #40854c;
+    color: white;
+}
+.textAreaStyle{
+    width: 250px;
+    height: 100px;
+    border: 1px solid #58805f;
+}
+.submitButton{
+    width: 100px;
+    height:25px;
+    margin-top: 20px;
+    margin-left: 186px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #abd8b3;
+    border-right-color: #58805f;
+    border-bottom-color: #58805f;
+    background-color: #a6d3ae;
     color: white;
 }
 #b1{
@@ -38,4 +60,38 @@ select .l2{
     background:  url("../img/bg_positon.jpg") no-repeat 0px -15px;
     line-height: 24px;
     text-indent: 32px;
+}
+table{
+    width: 500px;
+    font-size: 12px;
+    color: #333333;
+}
+th,td{
+    padding: 3px;
+}
+th{
+    text-align: right;
+    font-weight: normal;
+}
+#layout{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+h1{
+    color: #666;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-weight: normal;
+    letter-spacing: -2px;
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #8fc629;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+h2{
+    color: #333333;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px;
 }

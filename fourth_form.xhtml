@@ -8,57 +8,75 @@
     <title>CSS网站元素设计_FORM</title>
 </head>
 <body>
-    <form action="" name="forml" id="forml" method="post">
-        <input type="text" name="name" id="name"/>
-        <br/>
-        <br/>
-        <input type="text" name="password" id="password"/>
-        <br/>
-        <br/>
-        您是否曾使用表格式布局？
-        是<input name="c1" type="radio" value="yes"/>
-        否<input name="c1" type="radio" value="no"/>
-        <br/>
-        <br/>
-        您是否开始使用CSS布局？
-        是<input name="c2" type="radio" value="yes"/>
-        否<input name="c2" type="radio" value="no"/>
-        <br/>
-        <br/>
-        是否订阅CSS邮件？
-        <input name="submail" type="checkbox" value="sub"/>
-        是的
-        <br/>
-        <br/>
-        <input type="submit" name="rss" value="RSS订阅" id="b1"/>
-        <br/>
-        <br/>
-        您所从事的行业：
-        <select name="job">
-            <option class="l1">-请选择您所从事的行业-</option>
-            <option class="l2">-IT行业-</option>
-            <option>设计师</option>
-            <option>程序员</option>
-            <option>总  监</option>
-            <option class="l2">-传统行业-</option>
-            <option>美术编辑</option>
-            <option>项目经理</option>
-        </select>
-        <br/>
-        <br/>
-        请留下您的姓名：
-        <input type="text" name="name" class="textInput"/>
-        <br/>
-        <br/>
-        请留下您的Email地址：
-        <input type="text" name="email" class="textInput"/>
-        <br/>
-        <br/>
-        请留下您的建议：
-        <textarea rows="0" cols="0" name="comment"></textarea>
-        <br/>
-        <br/>
-        <input type="submit" name="submit" value="提交"/>
-    </form>
+    <input type="text" name="name" id="name"/>
+    <br/>
+    <br/>
+    <input type="text" name="password" id="password"/>
+    <br/>
+    <br/>
+    <input type="submit" name="rss" value="RSS订阅" id="b1"/>
+    <div id="layout">
+        <h1>几个有关Web标准的问题</h1>
+        <h2>帮助我们更好的了解您对Web标准网页设计的想法与看法</h2>
+        <form action="" name="forml" id="forml" method="post">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <th>您是否曾使用表格式布局？</th>
+                    <td>
+                        是<input name="c1" type="radio" value="yes"/>
+                        否<input name="c1" type="radio" value="no"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>您是否开始使用CSS布局？</th>
+                    <td>
+                        是<input name="c2" type="radio" value="yes"/>
+                        否<input name="c2" type="radio" value="no"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="submail">是否订阅CSS邮件？</label></th>
+                    <td>
+                        <input name="submail" type="checkbox" value="sub" id="submail"/>
+                        是的
+                    </td>
+                </tr>
+                <tr>
+                    <th>您所从事的行业：</th>
+                    <td>
+                        <select name="job">
+                            <option class="l1">-请选择您所从事的行业-</option>
+                            <option class="l2" disabled="disabled">-IT行业-</option>
+                            <option>设计师</option>
+                            <option>程序员</option>
+                            <option>总  监</option>
+                            <option class="l2" disabled="disabled">-传统行业-</option>
+                            <option>美术编辑</option>
+                            <option>项目经理</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>请留下您的姓名：</th>
+                    <td>
+                        <input type="text" name="name" class="textInput"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>请留下您的Email地址：</th>
+                    <td>
+                        <input type="text" name="email" class="textInput"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>请留下您的建议：</th>
+                    <td>
+                        <textarea rows="0" cols="0" name="comment" class="textAreaStyle"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" value="提交" class="submitButton"/>
+        </form>
+    </div>
 </body>
 </html>
