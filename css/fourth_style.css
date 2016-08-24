@@ -1,0 +1,174 @@
+p{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 12px;
+}
+p.en{
+    font-family: Arial,Verdana;
+    font-size: 150%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+p.en2{
+    font-family: ncursive;
+    font-size: 12px;
+}
+strong{
+    font-size: 1.6em;
+    font-weight: normal;
+}
+p.ch{
+    font-family: 黑体;
+    font-size: 14pt;
+    font-style: italic;
+}
+p.en_0{
+    text-transform: capitalize;
+}
+p.en_1{
+    text-transform: uppercase;
+}
+p.en_2{
+    text-transform: lowercase;
+}
+p.ch_0{
+    text-decoration: overline;
+}
+p.ch_1{
+    text-decoration: underline;
+}
+p.ch_2{
+    text-decoration: line-through;
+}
+p.ch_3{
+    padding: 1px;
+}
+span.line{
+    border-bottom: 1px dashed #000fff;
+}
+
+
+
+div#layout{
+    width: 700px;
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin:0 auto;
+}
+#layout h1{
+    color: #666;
+    font-family: Georgia,"Times New Roman",Times,Serif;
+    font-weight: normal;
+    letter-spacing: -2px;
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #8fc629;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#layout p{
+    line-height: 150%;
+    /*首行缩进*/
+    /*text-indent: 2em;*/
+    vertical-align: top;
+    /*word-spacing: 20px;*/
+    /*letter-spacing: 20px;*/
+}
+#layout p:first-letter{
+    /*首字下沉效果 为毛也没用？ 咦 我为什么要说也？*/
+    font-size: 2em;
+    float: left;
+}
+#layout h2{
+    font-size: 14px;
+    text-align: right;
+}
+#layout h3{
+    font-size: 14px;
+}
+#layout ul{
+    font-size: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#layout li{
+    width: 120px;
+    /*强制不换行 超出隐藏 以省略号代替 为毛没用？*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*强制不换行*/
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
+#linkStyle{
+    width: 700px;
+    height: auto;
+    border: 1px solid #8fc629;
+    padding: 10px;
+    position: absolute;
+    top:25px;
+    right: 25px;
+}
+#linkStyle a{
+    color: red;
+    display: block;
+    padding: 20px;
+    margin-left: 10px;
+    float: left;
+    background-color: #bbbbbb;
+    color: #ffffff;
+}
+#linkStyle a:link{
+    color: blue;
+    text-decoration: none;
+}
+#linkStyle a:visited{
+    color: #999999;
+    text-decoration: line-through;
+}
+#linkStyle a:hover{
+    background-color: #2788da;
+}
+#linkStyle a:active{
+    background-color: #000fff;
+}
+
+
+#classicStyle{
+    width: 320px;
+    background-color: #d4d0c8;
+    height: 100px;
+    padding: 10px;
+}
+#classicStyle a{
+    /*comment*/
+    display: block;
+    float: left;
+    color: black;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+#classicStyle a.classic{
+    text-decoration: none;
+    background-color: #d4d0c8;
+    border: 1px solid #fff;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    padding: 5px;
+}
+#classicStyle a.classic:hover{
+    background-color: #eee9e0;
+}
+#classicStyle a.classic:active{
+    border: 1px solid #fff;
+    border-top-color: #808080;
+    border-left-color: #808080;
+    background-color: #d4d0c8;
+}
+
+
