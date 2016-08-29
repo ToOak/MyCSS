@@ -1,0 +1,14 @@
+/*分栏排版*/
+p{
+    line-height: 180%;
+    font-size: 12px;
+}
+#layout{
+    width: 700px;
+    margin: 0px auto;
+}
+.col{
+    width: 300px;
+    padding: 0 10px;
+    float: left;
+}
