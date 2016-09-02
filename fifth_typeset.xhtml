@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" rev="stylesheet" type="text/css" href="css/fifth_typeset.css"/>
+    <title>CSS内容排版_TXT</title>
+</head>
+<body>
+    <!--分栏排版-->
+    <div id="layout">
+        <div class="col">[...]</div>
+        <div class="col">[...]</div>
+    </div>
+    <!--图片混合排版-->
+    <div id="layout_1">
+        <h1>CSS PAQ</h1>
+        <div class="pimg"><img src="img/bg_body.jpg" alt="sorry no pic" width="216" height="120"/></div>
+        <p>[...]</p>
+    </div>
+    <table id="browser">
+        <!--定义表格的名称-->
+        <caption>浏览器兼容性一览表</caption>
+        <thead>
+            <tr>
+                <th>CSS特征</th>
+                <th>MSIE 6.0</th>
+                <th>Firefox 1.0</th>
+                <th>Firefox 1.5</th>
+                <th>Opera 8.5</th>
+            </tr>
+        </thead>
+        <tbody id="html">
+            <tr>
+                <th colspan="5" class="title">HTML 4.0.1</th>
+            </tr>
+            <tr>
+                <th>a</th>
+                <td>81%</td>
+                <td>85%</td>
+                <td>85%</td>
+                <td>94%</td>
+            </tr>
+            <tr>
+                <th>abbr</th>
+                <td>N</td>
+                <td>97%</td>
+                <td>85%</td>
+                <td>94%</td>
+            </tr>
+            <tr>
+                <th>acronym</th>
+                <td>94%</td>
+                <td>97%</td>
+                <td>97%</td>
+                <td>75%</td>
+            </tr>
+        </tbody>
+        <tbody id="xhtml">
+            <tr>
+                <th colspan="5" class="title">XHTML 1.0 changes</th>
+            </tr>
+            <tr>
+                <th>HTML in XML</th>
+                <td>N</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <th>well-formed</th>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <th>Media Types</th>
+                <td>N</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">资料来源：http://www.Webdevout.net</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
